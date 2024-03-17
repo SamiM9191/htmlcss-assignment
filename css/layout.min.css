@@ -455,18 +455,18 @@ header .container #btn-menu {
     padding-top: 80px;
   }
 }
-#showcase .container .content .download-app {
+#showcase .container .content .app-download-links {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin: 40px 0;
 }
 @media (min-width: 992px) {
-  #showcase .container .content .download-app {
+  #showcase .container .content .app-download-links {
     justify-content: flex-start;
   }
 }
-#showcase .container .content .download-app img {
+#showcase .container .content .app-download-links img {
   width: 100%;
 }
 #showcase .container .content .more {
@@ -510,26 +510,26 @@ header .container #btn-menu {
   padding: 40px 0;
 }
 
-#features {
+#app-features {
   padding: 60px;
 }
-#features .container {
+#app-features .container {
   display: none;
   gap: 10px;
 }
 @media (min-width: 768px) {
-  #features .container {
+  #app-features .container {
     display: flex;
   }
 }
-#features .container .content {
+#app-features .container .content {
   padding-left: 202px;
   display: flex;
   flex-direction: column;
   -moz-column-gap: 100px;
        column-gap: 100px;
 }
-#features .container .icon-holder {
+#app-features .container .icon-holder {
   background: #EFF2FC;
   display: flex;
   justify-content: center;
@@ -538,21 +538,21 @@ header .container #btn-menu {
   height: 60px;
   border-radius: 5px;
 }
-#features .container .feature-section {
+#app-features .container .feature-section {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-#features .container .text {
+#app-features .container .text {
   max-width: 670px;
   padding-top: 20px;
   padding-bottom: 50px;
   color: #9397AD;
 }
-#features .container .feature-text {
+#app-features .container .feature-text {
   max-width: 250px;
 }
-#features .container .feature-box {
+#app-features .container .feature-box {
   display: flex;
   gap: 24px;
 }
@@ -882,36 +882,36 @@ header .container #btn-menu {
   height: 20px;
 }
 
-#faq {
+#common-questions {
   background: white;
 }
-#faq .container {
+#common-questions .container {
   display: none;
 }
 @media (min-width: 992px) {
-  #faq .container {
+  #common-questions .container {
     display: flex;
     gap: 134px;
     padding: 112px 0 80px 0;
   }
 }
-#faq .container .left {
+#common-questions .container .left {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-#faq .container .left h2 {
+#common-questions .container .left h2 {
   max-width: 345px;
 }
-#faq .container .left p {
+#common-questions .container .left p {
   max-width: 370px;
 }
-#faq .container .left .contact-box {
+#common-questions .container .left .contact-box {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-#faq .container .left .contact-box div {
+#common-questions .container .left .contact-box div {
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -919,45 +919,45 @@ header .container #btn-menu {
   border: #E2E5F1 solid 1px;
   border-radius: 8px;
 }
-#faq .container .left .contact-box div p {
+#common-questions .container .left .contact-box div p {
   margin-bottom: 0;
 }
-#faq .container .left .contact-box div img {
+#common-questions .container .left .contact-box div img {
   max-width: 28px;
   max-height: 28px;
 }
-#faq .container .left .contact-box div a {
+#common-questions .container .left .contact-box div a {
   color: #6366F1;
   cursor: pointer;
   transition: color 0.3s ease;
 }
-#faq .container .left .contact-box .call-box a {
+#common-questions .container .left .contact-box .call-box a {
   color: #6366F1;
 }
-#faq .container .left .contact-box .call-box a:hover {
+#common-questions .container .left .contact-box .call-box a:hover {
   text-decoration: underline;
   color: #3438ed;
 }
-#faq .container .left .contact-box .call-box a:active {
+#common-questions .container .left .contact-box .call-box a:active {
   color: #0B0F19;
   color: #7a7df3;
 }
-#faq .container .left .contact-box .chat-box a {
+#common-questions .container .left .contact-box .chat-box a {
   color: #22C55E;
 }
-#faq .container .left .contact-box .chat-box a:hover {
+#common-questions .container .left .contact-box .chat-box a:hover {
   text-decoration: underline;
   color: #1a9a49;
 }
-#faq .container .left .contact-box .chat-box a:active {
+#common-questions .container .left .contact-box .chat-box a:active {
   color: #27da69;
 }
-#faq .container .accordion {
+#common-questions .container .accordion {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-#faq .container .accordion .accordion-box {
+#common-questions .container .accordion .accordion-box {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -970,7 +970,7 @@ header .container #btn-menu {
   gap: 16px;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-#faq .container .accordion .accordion-box .title {
+#common-questions .container .accordion .accordion-box .title {
   cursor: pointer;
   line-height: 160%;
   font-weight: 400;
@@ -984,27 +984,27 @@ header .container #btn-menu {
   align-items: center;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-#faq .container .accordion .accordion-box .title .arrow-buttons {
+#common-questions .container .accordion .accordion-box .title .arrow-buttons {
   display: flex;
   padding: 8px;
   align-items: flex-start;
   border-radius: 50%;
   background-color: #F3F6FF;
 }
-#faq .container .accordion .accordion-box .title .arrow-buttons .inactive {
+#common-questions .container .accordion .accordion-box .title .arrow-buttons .inactive {
   display: flex;
   margin: 0;
   width: 20px;
   height: 20px;
   align-items: center;
 }
-#faq .container .accordion .accordion-box .title .arrow-buttons .active {
+#common-questions .container .accordion .accordion-box .title .arrow-buttons .active {
   display: none;
 }
-#faq .container .accordion .accordion-box:hover {
+#common-questions .container .accordion .accordion-box:hover {
   background-color: #F3F6FF;
 }
-#faq .container .accordion .accordion-box:hover .title {
+#common-questions .container .accordion .accordion-box:hover .title {
   line-height: 160%;
   font-weight: 400;
   color: #565973;
@@ -1013,16 +1013,16 @@ header .container #btn-menu {
   font-weight: 600;
   color: #6366F1;
 }
-#faq .container .accordion .accordion-box:hover .title .arrow-buttons {
+#common-questions .container .accordion .accordion-box:hover .title .arrow-buttons {
   background-color: #E2E5F1;
 }
-#faq .container .accordion .accordion-box:hover .title .arrow-buttons .inactive {
+#common-questions .container .accordion .accordion-box:hover .title .arrow-buttons .inactive {
   background-color: #E2E5F1;
 }
-#faq .container .accordion .accordion-box .content {
+#common-questions .container .accordion .accordion-box .content {
   display: none;
 }
-#faq .container .accordion .accordion-box .toggle:checked + .title + .content {
+#common-questions .container .accordion .accordion-box .toggle:checked + .title + .content {
   display: block;
   line-height: 160%;
   font-weight: 400;
@@ -1031,25 +1031,25 @@ header .container #btn-menu {
   font-size: 14px;
   color: #565973;
 }
-#faq .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons {
+#common-questions .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons {
   background-color: #6366F1;
   background: #6366F1;
   box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
 }
-#faq .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons .inactive {
+#common-questions .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons .inactive {
   display: none;
 }
-#faq .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons .active {
+#common-questions .container .accordion .accordion-box .toggle:checked + .title .arrow-buttons .active {
   display: flex;
   margin: 0;
   width: 20px;
   height: 20px;
   align-items: center;
 }
-#faq .container .accordion .accordion-box:hover .toggle:checked + .title .arrow-buttons {
+#common-questions .container .accordion .accordion-box:hover .toggle:checked + .title .arrow-buttons {
   background-color: #575bf0;
 }
-#faq .container .accordion .accordion-box:hover .toggle:checked + .title .arrow-buttons .active {
+#common-questions .container .accordion .accordion-box:hover .toggle:checked + .title .arrow-buttons .active {
   background-color: #575bf0;
 }
 
@@ -1064,7 +1064,7 @@ header .container #btn-menu {
 }
 #subscribe .container .title-bar {
   display: flex;
-  width: 540px;
+  width: 545px;
   height: 78px;
   gap: 32px;
 }
@@ -1177,7 +1177,7 @@ header .container #btn-menu {
   align-items: center;
 }
 #home-footer .container .logo {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 #home-footer .container .menu-links {
   display: flex;
@@ -1192,13 +1192,13 @@ header .container #btn-menu {
   font-weight: 600;
   color: #33354D;
 }
-#home-footer .container .download-app {
+#home-footer .container .app-download-links {
   display: flex;
   justify-content: center;
   gap: 26px;
   transition: box-shadow 0.4s ease;
 }
-#home-footer .container .download-app a:hover {
+#home-footer .container .app-download-links a:hover {
   background: #FFFFFF;
   box-shadow: 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03), 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06);
 }
@@ -1383,15 +1383,15 @@ header .container #btn-menu {
   color: #4246ee;
   text-decoration: none;
 }
-#contact-us .container .full-section .quick-contact {
+#contact-us .container .full-section .contact-options {
   padding: 20px 0 40px;
 }
-#contact-us .container .full-section .quick-contact .contact-box {
+#contact-us .container .full-section .contact-options .contact-box {
   display: flex;
   gap: 32px;
   padding: 30px 0;
 }
-#contact-us .container .full-section .quick-contact .contact-box .icon-holder {
+#contact-us .container .full-section .contact-options .contact-box .icon-holder {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1400,20 +1400,20 @@ header .container #btn-menu {
   height: 60px;
   border-radius: 50%;
 }
-#contact-us .container .full-section .quick-contact .contact-box .icon-holder img {
+#contact-us .container .full-section .contact-options .contact-box .icon-holder img {
   width: 28px;
   height: 28px;
 }
-#contact-us .container .full-section .quick-contact .contact-box .content {
+#contact-us .container .full-section .contact-options .contact-box .content {
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: 306px;
 }
-#contact-us .container .full-section .quick-contact .contact-box .content h4 {
+#contact-us .container .full-section .contact-options .contact-box .content h4 {
   margin-bottom: 0;
 }
-#contact-us .container .full-section .quick-contact .contact-box .content a {
+#contact-us .container .full-section .contact-options .contact-box .content a {
   display: block;
   width: 183px;
   padding-top: 13px;
@@ -1427,16 +1427,16 @@ header .container #btn-menu {
   color: #6366F1;
   transition: color 0.3s ease;
 }
-#contact-us .container .full-section .quick-contact .contact-box .content a:active {
+#contact-us .container .full-section .contact-options .contact-box .content a:active {
   color: #3438ed;
   text-decoration: none;
 }
-#contact-us .container .full-section .quick-contact .contact-box .content a img {
+#contact-us .container .full-section .contact-options .contact-box .content a img {
   width: 13.41px;
   height: 13.41px;
   margin-left: 8px;
 }
-#contact-us .container .consultation {
+#contact-us .container .appointment-booking {
   position: relative;
   left: 660px;
   top: 94px;
@@ -1451,11 +1451,11 @@ header .container #btn-menu {
   box-shadow: 0px 4px 13px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
   background-color: white;
 }
-#contact-us .container .consultation .date-time {
+#contact-us .container .appointment-booking .date-time {
   display: flex;
   gap: 24px;
 }
-#contact-us .container .consultation input {
+#contact-us .container .appointment-booking input {
   all: unset;
   display: block;
   height: 52px;
@@ -1465,13 +1465,13 @@ header .container #btn-menu {
   border: 1px #D4D7E5 solid;
   border-radius: 6px;
 }
-#contact-us .container .consultation input:focus {
+#contact-us .container .appointment-booking input:focus {
   background: #FFFFFF;
   box-shadow: 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03), 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06);
   background-color: white;
   border: 1px #c1c2f9 solid;
 }
-#contact-us .container .consultation select {
+#contact-us .container .appointment-booking select {
   display: block;
   height: 52px;
   width: 100%;
@@ -1481,13 +1481,13 @@ header .container #btn-menu {
   border-radius: 6px;
   background-color: white;
 }
-#contact-us .container .consultation select:focus {
+#contact-us .container .appointment-booking select:focus {
   background: #FFFFFF;
   box-shadow: 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03), 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06);
   background-color: white;
   border: 1px #c1c2f9 solid;
 }
-#contact-us .container .consultation .info-label {
+#contact-us .container .appointment-booking .info-label {
   line-height: 160%;
   font-weight: 400;
   color: #565973;
@@ -1497,15 +1497,15 @@ header .container #btn-menu {
   padding: 5px;
   display: inline-block;
 }
-#contact-us .container .consultation .info-label.error {
+#contact-us .container .appointment-booking .info-label.error {
   color: #EF4444;
   background-color: #fbd1d1;
 }
-#contact-us .container .consultation .info-label.success {
+#contact-us .container .appointment-booking .info-label.success {
   color: #22C55E;
   background-color: #bff4d3;
 }
-#contact-us .container .consultation button {
+#contact-us .container .appointment-booking button {
   width: 229px;
   height: 52px;
   border: none;
