@@ -1,85 +1,88 @@
-#showcase{
+#showcase {
+  background: $gradient-background;
 
-    background: $gradient-background;
+  @include lg {
+    padding-top: 40px;
+  }
 
-    @include lg{
-        padding-top: 40px;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:"img"
+                         "content";
+
+    @include md {
+        grid-template-columns: 1fr 1fr;
+        align-items: end;
+      grid-template-areas: "content img";
+      gap: 50px;
+      
     }
 
+    @include lg {
+        align-items: stretch;
+       gap: 100px;
+      }
+  
 
-    .container{
+    .content {
+      grid-area: content;
+      text-align: center;
+      padding: 20px;
+
+      @include lg {
+        text-align: left;
         display: grid;
-        grid-template-columns: 1fr auto;
-        grid-template-areas:    "img"
-                                "content";
+        grid-template-rows: auto auto 1fr auto;
+        padding: 0;
+      }
 
-        
+      h1 {
+        @include h1;
 
-        @include lg{
-            grid-template-areas:    "content img";
-            gap: 100px;
-
+        @include lg {
+          @include d4;
+          padding-top: 80px;
         }
-      
+      }
 
-       
+      .download-app {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 40px 0;
 
-        .content{
-            grid-area: content;
-            text-align: center;
-            padding: 20px;
 
-            @include lg{
-                text-align: left;
-                display: grid;
-                grid-template-rows: auto auto 1fr auto;
-                padding: 0;
-            }
-         
-            h1{
-                @include h1;
-
-                @include lg{
-                    @include d4;
-                    padding-top: 80px;
-                }
-                
-            }
-
-         .download-app{
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin: 40px 0;
-
-            @include lg{
-                justify-content: flex-start;
-            }
-         }
-
-         .more{
-            margin-bottom: 20px;
-            @include text-m;
-
-            i{
-                margin-right: 8px;
-            }
-         }
-
+        @include lg {
+          justify-content: flex-start;
         }
 
-        #showcase-image{
-            grid-area: img;
+        img{
             width: 100%;
-            padding: 20px  40px;
-
-            @include lg{
-                padding: 0;
-
-            }
-          
-
         }
-                              
-    }      
+      }
+
+      .more {
+        margin-bottom: 20px;
+        @include text-m;
+
+        i {
+          margin-right: 8px;
+        }
+      }
+    }
+
+    #showcase-image {
+      grid-area: img;
+      align-items: baseline;
+      height: 100%;
+      width: 100%;
+
+      padding: 20px 40px;
+
+      @include md {
+        padding: 0;
+      }
+    }
+  }
 }
