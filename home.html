@@ -25,6 +25,9 @@
     <meta name="author" content="Sami Marksved" />
   </head>
   <body>
+      
+    <!--Header-->
+
     <div class="wrapper">
       <header>
         <div class="container">
@@ -64,7 +67,8 @@
       <main>
 
 
-        <!-- showcase -->
+        <!-- Showcase-Section-->
+
         <section id="showcase">
           <div class="container">
             <div class="content">
@@ -98,7 +102,8 @@
           </div>
         </section>
 
-        <!-----brands------->
+        <!-----Brands we work with------->
+        
         <section id="brands">
           <div class="container">
             <div class="box">
@@ -121,7 +126,7 @@
             </div>
         </section>
 
-        <!--Features-->
+        <!--App-Features-->
 
         <section id="app-features">
           <div class="container">
@@ -199,7 +204,7 @@
         </div>
         </section>
 
-        <!---How does it Work-->
+        <!---How the app works-->
 
         <section id="how-it-works">
           <div class="container">
@@ -208,14 +213,18 @@
               <button class="button">
                 <img src="images/chevron_left.svg" alt="left arrow" />
               </button>
-              <div class="unselected phone">
+              <div class="unselected-phone">
                 <img src="images/mobile-howdoesitwork_1.svg" alt="how-it-works 1">
               </div>
-              <div class="selected phone">
+              <div class="selected-phone">
                 <img class="phone-img" src="images/iphone_12.svg" alt="Iphone 12">
-                <img class="phone-screen" src="images/mobile-howdoesitwork_2.svg" alt="how-it-works 2">
+                <img
+                class="phone-screen"
+                src="images/mobile-howdoesitwork_2.svg"
+                alt="how-it-works 2"
+              >
               </div>
-              <div class="unselected phone">
+              <div class="unselected-phone">
                 <img src="images/mobile-howdoesitwork_3.svg" alt="how-it-works 3">
               </div>
               <button class="button">
@@ -262,7 +271,7 @@
               <img src="images/feature-1.svg" alt="">
             </div>
             <div class="bottom">
-              <img src="images/feature-2.svg" alt="">
+              <img src="images/feature-2.svg" alt="feature-2">
               <div class="content">
                 <h2>Receive payment from international bank details</h2>
                 <div class="feature-section">
@@ -273,7 +282,7 @@
                     <p>Manage your payments online. Mollis congue egestas egestas fermentum fames.
                     </p>
                   </div>
-                  <div class="feature-section">
+                  <div class="feature-box">
                     <div class="icon-holder">
                       <img src="images/feature_5.svg" alt="feature-5">
                     </div>
@@ -291,7 +300,7 @@
             </div>
         </section>
 
-        <!--Testimonials-->
+        <!--Customer-Testimonials-->
 
         <section id="testimonials">
           <div class="container">
@@ -361,7 +370,7 @@
           </div>
         </section>
 
-        <!--Faq-->
+        <!--Faq/Common-questions-->
 
         <section id="common-questions">
           <div class="container">
@@ -403,6 +412,7 @@
                   </div>
                 </label>
                 <p class="content">
+                  <!--Tried to add some text of my own to make it a litte more readable-->
                   Yes, and we have the right to sell it to the highest bidder.
                   gravida tincidunt eu, tempor ullamcorper. Viverra aliquam
                   arcu, viverra et, cursus. Aliquet pretium cursus adipiscing
@@ -427,7 +437,7 @@
                   </div>
                 </label>
                 <p class="content">
-                  MP3, WAV, MOV, MP4 and JSON. Massa cursus molestie lorem
+                  VLC, WMP, Ipod, MP4 and JSON. Massa cursus molestie lorem
                   scelerisque pellentesque. Nisi, enim, arcu purus gravida
                   adipiscing euismod montes, duis egestas. Vehicula eu etiam
                   quam tristique tincidunt suspendisse ut consequat.
@@ -571,7 +581,7 @@
             </div>
           </section>
 
-          <!--Subscribe-->
+          <!--Subscribe-Section-->
           <section id="subscribe">
             <div class="container">
               <div class="title-bar">
@@ -624,6 +634,8 @@
               </a>
               <a href="http://instagram.com">
                 <img src="images/instagram.svg" alt="instagram">
+                <!--Planned on adding a special account at first for all social media, 
+                  but went with no-->
               </a>
               <a href="http://youtube.com">
                 <img src="images/youtube.svg" alt="youtube">
@@ -640,6 +652,7 @@
     </div>
 
     <script>
+     //Left these here from the design-file, good knowledge to keep JS wise. To keep up.
       const toggleMenu = () => {
         const element = document.getElementById("menu");
         if (element.style.display === "none") {
